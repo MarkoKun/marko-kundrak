@@ -14,6 +14,25 @@ html {
   --imp-text-color: #c770f0;
 }
 
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.centered-text {
+  animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
+  padding-top: 40px;
+  font-size: 30px;
+  color: var(--imp-text-color) !important;
+  pointer-events: none; /* Make sure this doesn't interfere with the hover */
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -306,8 +325,11 @@ button:focus {
 }
 
 .myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
 }
 
 @media (max-width: 767px) {
@@ -563,6 +585,8 @@ button:focus {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  z-index: 1;
+  padding-bottom: 2% !important;
 }
 
 @media (max-width: 767px) {

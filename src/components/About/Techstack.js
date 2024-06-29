@@ -1,69 +1,41 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import TechOnHover from './TechOnHover';
+import { Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiLua,
+  SiSqlite,
+  SiAzuredevops,
+  SiExpress,
+  SiFlask,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
+import { FaAws, FaReact  } from "react-icons/fa";
+import { TbBrandSocketIo } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      <TechOnHover icon={SiLua} hoveredText="Lua"/>
+      <TechOnHover icon={DiJavascript1} hoveredText="JavaScript"/>
+      <TechOnHover icon={DiPython} hoveredText="Python"/>
+      <TechOnHover icon={FaReact} hoveredText="React"/>
+      <TechOnHover icon={DiGit} hoveredText="Git"/>
+      <TechOnHover icon={SiAzuredevops} hoveredText="Azure"/>
+      <TechOnHover icon={FaAws} hoveredText="AWS"/>
+      <TechOnHover icon={DiNodejs} hoveredText="NodeJS"/>
+      <TechOnHover icon={SiExpress} hoveredText="ExpressJS"/>
+      <TechOnHover icon={TbBrandSocketIo} hoveredText="SocketIO"/>
+      <TechOnHover icon={SiFlask} hoveredText="FlaskAPI"/>
+      <TechOnHover icon={DiMongodb} hoveredText="MongoDB"/>
+      <TechOnHover icon={SiFirebase} hoveredText="Firebase"/>
+      <TechOnHover icon={SiSqlite} hoveredText="Sqlite"/>
     </Row>
   );
 }

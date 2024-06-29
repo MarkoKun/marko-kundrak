@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/marko.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  const handleRedirect = (url) => {
+    window.location.href = url;
+};
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -19,42 +28,44 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              I have over a decade of programming experience, beginning in high school, 
+              and have been working as a professional software developer for the past four years.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              My professional career commenced with the development of an AI-driven bartender using <b className="purple">Python</b> and 
+              <b className="purple">JavaScript.</b>
+              <br />
+              I have leveraged <b className="purple">AWS</b> services extensively, using <b className="purple">Lambda</b> 
+              for code triggering, <b className="purple">DynamoDB </b>
+              for real time data storage, and <b className="purple">MQTT</b> for hardware communication.
+              <br />
+              Additionally, I implemented the <b className="purple">Alexa SDK</b> in <b className="purple">Python</b> 
+              to enable interactive speech and listening capabilities for customers.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+              In recent years, I have developed few games, including  
+              <b 
+              onClick={(e) => { 
+                e.preventDefault(); handleRedirect('https://www.roblox.com/games/11576508871/ChangiVerse');}}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                className={isHovered ? 'purple' : ''}
+                style={{ cursor: 'pointer' }}
+              > ChangiVerse </b>
+              for Singapore Airport, utilizing 
+              <b className="purple"> Lua Programming Language </b> and 
+              <b className="purple"> Roblox Studio.</b> 
+              <br />
+              To ensure seamless updates and deployment, I utilized <b className="purple">Azure DevOps</b> to create pipelines using <b className="purple">Bash</b> scripts, 
+              facilitating the uploading of new packages from the web application and publishing them across various feeds.
+              <br />
+              To ensure my code stays clean and efficient, I use <b className="purple">Pylint</b> and <b className="purple">ESLint</b>, 
+              and I manage APIs with <b className="purple">Swagger</b>.
+              </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} style={{ borderRadius: '50%' }} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -67,42 +78,12 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/marko-kundrak-a8a44b230/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
