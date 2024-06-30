@@ -33,7 +33,7 @@ function Home2() {
               <br />
               <br />
               My professional career commenced with the development of an AI-driven bartender using <b className="purple">Python</b> and 
-              <b className="purple">JavaScript.</b>
+              <b className="purple"> JavaScript.</b>
               <br />
               I have leveraged <b className="purple">AWS</b> services extensively, using <b className="purple">Lambda</b> 
               for code triggering, <b className="purple">DynamoDB </b>

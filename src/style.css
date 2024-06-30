@@ -14,6 +14,17 @@ html {
   --imp-text-color: #c770f0;
 }
 
+.about-activity-right{
+  list-style: none !important;
+  text-align: right !important;
+}
+
+.about-activity-left{
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 0 !important;
+}
+
 @keyframes slideUp {
   from {
     transform: translateY(100%);
@@ -27,10 +38,20 @@ html {
 
 .centered-text {
   animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
-  padding-top: 40px;
-  font-size: 30px;
+  padding-top: 26%;
+  font-size: 25px;
   color: var(--imp-text-color) !important;
   pointer-events: none; /* Make sure this doesn't interfere with the hover */
+}
+
+@media (max-width: 767px) {
+  .centered-text {
+    animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
+    padding-top: 23%;
+    font-size: 25px;
+    color: var(--imp-text-color) !important;
+    pointer-events: none; /* Make sure this doesn't interfere with the hover */
+  }
 }
 
 .purple {
@@ -613,8 +634,6 @@ button:focus {
 
 .about-activity {
   list-style: none !important;
-  text-align: left !important;
-  padding-left: 1px !important;
 }
 
 @media (max-width: 767px) {

@@ -1,6 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { MdFamilyRestroom } from "react-icons/md";
+import { GiBookshelf } from "react-icons/gi";
+import { IoLogoGameControllerB } from "react-icons/io";
+import { RiComputerFill } from "react-icons/ri";
+import { SlGraph } from "react-icons/sl";
+import { GiNightSleep } from "react-icons/gi";
+import { GiRobotAntennas } from "react-icons/gi";
 
 function AboutCard() {
   return (
@@ -22,17 +28,41 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Enjoying time with my family
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Gaming
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Learning
-            </li>
-          </ul>
+          <br />
+          
+          <h1 style={{ fontSize: "1.7em", paddingBottom: "20px" }}>
+            Gallup <strong className="purple">CliftonStrengths</strong>
+          </h1>
+          <div style={{ display: "flex", justifyContent: "space-between"}}>
+            <ul className="about-activity-left">
+              <li style={{display: "flex", alignItems: "center"}} >
+                <GiRobotAntennas style={{marginRight: "7px"}} /> Futuristic
+              </li>
+              <li>
+                <RiComputerFill /> Developer
+              </li>
+              <li style={{display: "flex", alignItems: "center"}} >
+                <SlGraph style={{marginRight: "7px"}} /> Analytical
+              </li>
+              <li style={{display: "flex", alignItems: "center"}} >
+                <GiBookshelf style={{marginRight: "7px"}} /> Learner
+              </li>
+              <li style={{display: "flex", alignItems: "center"}} >
+                <GiNightSleep style={{marginRight: "7px"}} /> Restorative
+              </li>
+            </ul>
+            <ul className="about-activity-right">
+              <li style={{display: "flex", alignItems: "center"}} >
+                Family <MdFamilyRestroom style={{marginLeft: "7px"}} /> 
+              </li>
+              <li style={{display: "flex", alignItems: "center"}} >
+                Gaming <IoLogoGameControllerB style={{marginLeft: "7px"}} /> 
+              </li>
+              <li style={{display: "flex", alignItems: "center"}} >
+                Learning <GiBookshelf style={{marginLeft: "7px"}} /> 
+              </li>
+            </ul>
+          </div>
         </blockquote>
       </Card.Body>
     </Card>
