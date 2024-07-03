@@ -13,27 +13,23 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center" }}>
             Hi Everyone, I am <span className="purple">Marko Kundrak </span>
             from <span className="purple"> Košice, Slovakia.</span>
             <br />
             I am currently employed as a custom software engineer at <span className="purple">Accenture.</span>
             <br />
-            I have completed <span className="purple">Secondary School of Electrical Engineering</span> 
+            I have completed <span className="purple">Secondary School of Electrical Engineering </span> 
             in Košice with a focus on <span className="purple">Computer Science</span> and <span className="purple">Informatics</span>.
             <br />
-            This gave me strong and cohesive foundation to complete <span className="purple">Master's degree</span>
+            This gave me strong and cohesive foundation to complete <span className="purple">Master's degree </span>
             in Informatics and Electrical engineering at Technical University of Košice.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
           </p>
           <br />
-          
-          <h1 style={{ fontSize: "1.7em", paddingBottom: "20px" }}>
+          <h1 style={{ fontSize: "1.7em"}}>
             Gallup <strong className="purple">CliftonStrengths</strong>
           </h1>
-          <div style={{ display: "flex", justifyContent: "space-between"}}>
+          <div style={{ display: "flex", justifyContent: "center"}}>
             <ul className="about-activity-left">
               <li style={{display: "flex", alignItems: "center"}} >
                 <GiRobotAntennas style={{marginRight: "7px"}} /> Futuristic
@@ -51,15 +47,21 @@ function AboutCard() {
                 <GiNightSleep style={{marginRight: "7px"}} /> Restorative
               </li>
             </ul>
-            <ul className="about-activity-right">
+          </div>
+          <br />
+          <h1 style={{ fontSize: "1.7em"}}>
+            Free Time <strong className="purple">Activities </strong>
+          </h1>
+          <div style={{ display: "flex", justifyContent: "center"}}>
+            <ul className="about-activity-left">
               <li style={{display: "flex", alignItems: "center"}} >
-                Family <MdFamilyRestroom style={{marginLeft: "7px"}} /> 
+                <MdFamilyRestroom style={{marginRight: "7px"}} /> Family  
               </li>
               <li style={{display: "flex", alignItems: "center"}} >
-                Gaming <IoLogoGameControllerB style={{marginLeft: "7px"}} /> 
+                <IoLogoGameControllerB style={{marginRight: "7px"}} /> Gaming 
               </li>
               <li style={{display: "flex", alignItems: "center"}} >
-                Learning <GiBookshelf style={{marginLeft: "7px"}} /> 
+                <GiBookshelf style={{marginRight: "7px"}} /> Learning  
               </li>
             </ul>
           </div>

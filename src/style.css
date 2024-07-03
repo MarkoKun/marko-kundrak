@@ -38,7 +38,7 @@ html {
 
 .centered-text {
   animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
-  padding-top: 26%;
+  padding-top: 24%;
   font-size: 25px;
   color: var(--imp-text-color) !important;
   pointer-events: none; /* Make sure this doesn't interfere with the hover */
@@ -47,7 +47,7 @@ html {
 @media (max-width: 767px) {
   .centered-text {
     animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
-    padding-top: 23%;
+    padding-top: 32%;
     font-size: 25px;
     color: var(--imp-text-color) !important;
     pointer-events: none; /* Make sure this doesn't interfere with the hover */
@@ -283,7 +283,7 @@ button:focus {
   }
 }
 #tsparticles {
-  position: fixed !important;
+  position: fixed;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
@@ -305,9 +305,17 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .home-content {
+    padding: 0rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: left;
+  }
 }
 
 .heading {
@@ -578,7 +586,6 @@ button:focus {
   color: white !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
-  padding-top: 10px !important;
 }
 
 /* --------- */
@@ -587,16 +594,16 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 75px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
+  font-size: 4.5em !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
@@ -613,6 +620,8 @@ button:focus {
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+    padding: 0px !important;
+    padding-bottom: 3% !important;
   }
 }
 
@@ -647,16 +656,29 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 75px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
 .resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
   justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .resume {
+    height: 100vh !important;
+    align-items: center !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .resume-section {
+    align-items: center !important;
+
+  }
 }
 
 .resume-left {
@@ -667,17 +689,6 @@ button:focus {
   padding-left: 80px !important;
 }
 
-@media (max-width: 767px) {
-  .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-
-  .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-}
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;

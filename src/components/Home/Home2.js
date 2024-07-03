@@ -32,14 +32,14 @@ function Home2() {
               and have been working as a professional software developer for the past four years.
               <br />
               <br />
-              My professional career commenced with the development of an AI-driven bartender using <b className="purple">Python</b> and 
+              My professional career commenced with the development of an AI-driven bartender using <b className="purple">Python </b> and 
               <b className="purple"> JavaScript.</b>
               <br />
-              I have leveraged <b className="purple">AWS</b> services extensively, using <b className="purple">Lambda</b> 
+              I have leveraged <b className="purple">AWS</b> services extensively, using <b className="purple">Lambda </b> 
               for code triggering, <b className="purple">DynamoDB </b>
               for real time data storage, and <b className="purple">MQTT</b> for hardware communication.
               <br />
-              Additionally, I implemented the <b className="purple">Alexa SDK</b> in <b className="purple">Python</b> 
+              Additionally, I implemented the <b className="purple">Alexa SDK</b> in <b className="purple">Python </b> 
               to enable interactive speech and listening capabilities for customers.
               <br />
               <br />
@@ -55,12 +55,12 @@ function Home2() {
               for Singapore Airport, utilizing 
               <b className="purple"> Lua Programming Language </b> and 
               <b className="purple"> Roblox Studio.</b> 
+              The game itself has reached almost <b className="purple">10 million</b> visits to date and won several gaming and marketing awards.
               <br />
-              To ensure seamless updates and deployment, I utilized <b className="purple">Azure DevOps</b> to create pipelines using <b className="purple">Bash</b> scripts, 
-              facilitating the uploading of new packages from the web application and publishing them across various feeds.
+              To ensure seamless automatization and deployment, I utilized <b className="purple">Azure DevOps</b> to create pipelines using <b className="purple">Bash</b> scripts, 
+              facilitating the uploading of new packages from the JavaScript application and publishing them across different type of feeds.
               <br />
-              To ensure my code stays clean and efficient, I use <b className="purple">Pylint</b> and <b className="purple">ESLint</b>, 
-              and I manage APIs with <b className="purple">Swagger</b>.
+              To ensure my code stays clean and efficient, I use <b className="purple">Pylint</b>, <b className="purple">Autopep8</b>, <b className="purple">ESLint</b> and other tools. 
               </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -17,13 +17,13 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "30px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em" }}>
               About <strong className="purple">Me</strong>
             </h1>
             <Aboutcard />
+            <br/>
           </Col>
           <Col
             md={5}
@@ -38,12 +38,11 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <br/>
         <h1 className="project-heading">
           Technology <strong className="purple">Stack</strong>
         </h1>
-
-        <Techstack />
-
+          <Techstack />
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
