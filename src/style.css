@@ -50,12 +50,23 @@ html {
   }
 }
 
-.centered-text {
+.centered-text-orig {
   animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
   padding-top: 24%;
   font-size: 25px;
   color: var(--imp-text-color) !important;
-  pointer-events: none; /* Make sure this doesn't interfere with the hover */
+  pointer-events: none;
+}
+
+@media (min-width: 767px) {
+  .centered-text {
+    animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
+    font-size: 25px;
+    color: var(--imp-text-color) !important;
+    pointer-events: none;
+    display: inline;
+    vertical-align: middle;
+  }
 }
 
 @media (max-width: 767px) {
@@ -712,21 +723,23 @@ button:focus {
   color: white !important;
 }
 
-.tech-icons {
-  margin: 15px !important;
-  padding: 10px !important;
-  font-size: 4.5em !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
-  z-index: 1;
-  padding-bottom: 2% !important;
+@media (min-width: 767px) {
+  .tech-icons {
+    margin: 15px !important;
+    padding: 10px !important;
+    font-size: 4.5em !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+    z-index: 1;
+    padding-bottom: 2% !important;
+  }
 }
 
 @media (max-width: 767px) {

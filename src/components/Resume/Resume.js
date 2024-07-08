@@ -47,13 +47,12 @@ function ResumeNew() {
                 variant="primary"
                 href={pdf}
                 target="_blank"
-                style={{ position: "relative !important", maxWidth: "250px", zIndex: "2"}}
+                style={{ maxWidth: "250px", zIndex: "2"}}
               >
                 <AiOutlineDownload />
                 &nbsp;Download CV
               </Button>      
             </div>
-          <br/>
         </Col>
       </Container>
     </div>

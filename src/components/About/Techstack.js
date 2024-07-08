@@ -12,8 +12,8 @@ import {
   SiLua,
   SiSqlite,
   SiAzuredevops,
-  SiExpress,
   SiFlask,
+  SiVercel,
 } from "react-icons/si";
 
 import { FaAws, FaReact  } from "react-icons/fa";
@@ -29,8 +29,8 @@ function Techstack() {
       <TechOnHover icon={DiGit} hoveredText="Git"/>
       <TechOnHover icon={SiAzuredevops} hoveredText="Azure"/>
       <TechOnHover icon={FaAws} hoveredText="AWS"/>
+      <TechOnHover icon={SiVercel} hoveredText="Vercel"/>
       <TechOnHover icon={DiNodejs} hoveredText="NodeJS"/>
-      <TechOnHover icon={SiExpress} hoveredText="ExpressJS"/>
       <TechOnHover icon={TbBrandSocketIo} hoveredText="SocketIO"/>
       <TechOnHover icon={SiFlask} hoveredText="FlaskAPI"/>
       <TechOnHover icon={DiMongodb} hoveredText="MongoDB"/>
