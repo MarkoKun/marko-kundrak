@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/marko.jpg";
 import Tilt from "react-parallax-tilt";

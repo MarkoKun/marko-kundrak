@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { saveAs } from 'file-saver';
 import 'react-slideshow-image/dist/styles.css'
-import { Slide } from 'react-slideshow-image';
 import { Container, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -31,27 +30,30 @@ function ResumeNew() {
         <Particle />
         <Col className="resume">
             <Document file={pdf} className="d-flex justify-content-center">
-                <Page pageNumber={1} scale={width > 786 ? 1.3 : 0.7} />
+                <Page pageNumber={1} scale={width > 786 ? 1.3 : 0.65} />
             </Document>
             <br/>
             <Document file={pdf} className="d-flex justify-content-center">
-                <Page pageNumber={2} scale={width > 786 ? 1.3 : 0.7} />
+                <Page pageNumber={2} scale={width > 786 ? 1.3 : 0.65} />
             </Document>
             <br/>
             <Document file={pdf} className="d-flex justify-content-center">
-                <Page pageNumber={3} scale={width > 786 ? 1.3 : 0.7} />
+                <Page pageNumber={3} scale={width > 786 ? 1.3 : 0.65} />
             </Document>
+            <br/>   
+            <div>
+              <Button
+                onClick={handleDownload}
+                variant="primary"
+                href={pdf}
+                target="_blank"
+                style={{ position: "relative !important", maxWidth: "250px", zIndex: "2"}}
+              >
+                <AiOutlineDownload />
+                &nbsp;Download CV
+              </Button>      
+            </div>
           <br/>
-          <Button
-            onClick={handleDownload}
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ position: "relative", maxWidth: "250px", zIndex: "2"}}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
         </Col>
       </Container>
     </div>

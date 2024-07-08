@@ -44,9 +44,9 @@ function ProjectCards(props) {
             url={props.vidPath} 
             width="100%"
             height={window.innerWidth < 768 ? 
-              "25vh"
+              "25%"
               :
-              "59vh"
+              "74%"
             }
             controls
           />
@@ -58,14 +58,14 @@ function ProjectCards(props) {
               {paddingBottom:"0px"}
               
               :
-              {paddingBottom:"55px"}
+              {paddingBottom:"15px"}
             }
             url={props.vidPath} 
             width="100%"
             height={window.innerWidth < 768 ? 
-              "25vh"
+              "25%"
               :
-              "59vh"
+              "77%"
             }
             controls
           />
@@ -79,7 +79,7 @@ function ProjectCards(props) {
           />
         }
         {props.isGame ? 
-          <Button style={{width:"160px", height: "40px", fontSize:"20px", textAlign: "center", marginBottom: "15px !important"}} variant="primary" href="https://www.roblox.com/games/11576508871/ChangiVerse-T2-UPDATE" target="_blank">
+          <Button style={{width:"160px", height: "40px", fontSize:"20px", textAlign: "center", marginBottom: "20px !important"}} variant="primary" href="https://www.roblox.com/games/11576508871/ChangiVerse-T2-UPDATE" target="_blank">
             <IoLogoGameControllerB style={{marginRight:"7px", marginBottom:"3px"}} /> 
             Play!
           </Button>
