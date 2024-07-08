@@ -5,19 +5,9 @@ import Tilt from "react-parallax-tilt";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
   const handleRedirect = (url) => {
     window.location.href = url;
-};
+  };
 
   return (
     <Container fluid className="home-about-section" id="about">
@@ -46,10 +36,8 @@ function Home2() {
               In recent years, I have developed few games, including  
               <b 
               onClick={(e) => { 
-                e.preventDefault(); handleRedirect('https://www.roblox.com/games/11576508871/ChangiVerse');}}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                className={isHovered ? 'purple' : ''}
+                e.preventDefault(); handleRedirect('https://www.changiairport.com/en/discover/changiverse.html');}}
+                className='shineEffectParent'
                 style={{ cursor: 'pointer' }}
               > ChangiVerse </b>
               for Singapore Airport, utilizing 
