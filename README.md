@@ -4,11 +4,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 Welcome to my portfolio website. This site showcases my skills, projects, and experiences as a developer. It is designed to provide a comprehensive overview of my professional background and technical capabilities.
