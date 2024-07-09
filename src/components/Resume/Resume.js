@@ -47,7 +47,7 @@ function ResumeNew() {
                 variant="primary"
                 href={pdf}
                 target="_blank"
-                style={{ maxWidth: "250px", zIndex: "2"}}
+                style={{position: "relative", maxWidth: "250px", zIndex: "2"}}
               >
                 <AiOutlineDownload />
                 &nbsp;Download CV
