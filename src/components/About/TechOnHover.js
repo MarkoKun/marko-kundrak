@@ -14,7 +14,7 @@ const TechOnHover = ({ icon: Icon, hoveredText }) => {
 
   return (
     <Col xs={4} md={2} className={'tech-icons'} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        {Icon && hovered ? <div className="centered-text">{hoveredText}</div> : <Icon/>}
+      {Icon && hovered ? <div className="centered-text">{hoveredText}</div> : <Icon/>}
     </Col>
   );
 };

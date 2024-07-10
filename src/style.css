@@ -50,25 +50,15 @@ html {
   }
 }
 
-@media (min-width: 767px) {
-  .centered-text {
-    animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
-    font-size: 25px;
-    color: var(--imp-text-color) !important;
-    pointer-events: none;
-    vertical-align: middle;
-    padding-top: 32%;
-  }
-}
-
-@media (max-width: 767px) {
-  .centered-text {
-    animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
-    padding-top: 37%;
-    font-size: 25px;
-    color: var(--imp-text-color) !important;
-    pointer-events: none; /* Make sure this doesn't interfere with the hover */
-  }
+.centered-text{
+  font-size: 25px;
+  animation: slideUp 1s ease-out forwards; /* Animation duration and easing */
+  color: var(--imp-text-color) !important;
+  pointer-events: none;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 7% !important;
 }
 
 .purple {
