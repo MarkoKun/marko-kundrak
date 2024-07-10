@@ -44,7 +44,7 @@ function Projects() {
 
       <div className="project-card">
         <ProjectCard
-          vidPath={"https://media.githubusercontent.com/media/markokun/marko-kundrak/main/Videos/SocTechLyceum.mp4"}
+          vidPath={"https://media.githubusercontent.com/media/markokun/marko-kundrak/main/docs/Videos/SocTechLyceum.mp4"}
           isGame={false}
           title="Secondary School Project"
           isCV={false}
@@ -56,7 +56,7 @@ function Projects() {
       
       <div className="project-card">
         <ProjectCard
-          vidPath={"https://media.githubusercontent.com/media/markokun/marko-kundrak/main/Videos/DpTuke.mp4"}
+          vidPath={"https://media.githubusercontent.com/media/markokun/marko-kundrak/main/docs/Videos/DpTuke.mp4"}
           isGame={false}
           title="Master Thesis"
           isCV={false}

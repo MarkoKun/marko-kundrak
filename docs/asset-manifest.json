@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marko-kundrak/static/css/main.64b9479a.css",
-    "main.js": "/marko-kundrak/static/js/main.52cd1720.js",
+    "main.css": "/marko-kundrak/static/css/main.9ecc2839.css",
+    "main.js": "/marko-kundrak/static/js/main.2b669c68.js",
     "static/js/770.a36fb58a.chunk.js": "/marko-kundrak/static/js/770.a36fb58a.chunk.js",
     "reactPlayerYouTube.js": "/marko-kundrak/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/marko-kundrak/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
@@ -25,8 +25,8 @@
     "static/media/marko.jpg": "/marko-kundrak/static/media/marko.91dc108d2667fe6aa921.jpg",
     "static/media/pre.svg": "/marko-kundrak/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/marko-kundrak/index.html",
-    "main.64b9479a.css.map": "/marko-kundrak/static/css/main.64b9479a.css.map",
-    "main.52cd1720.js.map": "/marko-kundrak/static/js/main.52cd1720.js.map",
+    "main.9ecc2839.css.map": "/marko-kundrak/static/css/main.9ecc2839.css.map",
+    "main.2b669c68.js.map": "/marko-kundrak/static/js/main.2b669c68.js.map",
     "770.a36fb58a.chunk.js.map": "/marko-kundrak/static/js/770.a36fb58a.chunk.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/marko-kundrak/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/marko-kundrak/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
@@ -45,7 +45,7 @@
     "453.ace21015.chunk.js.map": "/marko-kundrak/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64b9479a.css",
-    "static/js/main.52cd1720.js"
+    "static/css/main.9ecc2839.css",
+    "static/js/main.2b669c68.js"
   ]
 }
