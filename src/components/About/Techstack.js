@@ -3,7 +3,6 @@ import { Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
 } from "react-icons/di";
@@ -33,7 +32,6 @@ function Techstack() {
       <TechOnHover icon={DiNodejs} hoveredText="NodeJS"/>
       <TechOnHover icon={TbBrandSocketIo} hoveredText="SocketIO"/>
       <TechOnHover icon={SiFlask} hoveredText="FlaskAPI"/>
-      <TechOnHover icon={DiMongodb} hoveredText="MongoDB"/>
       <TechOnHover icon={SiFirebase} hoveredText="Firebase"/>
       <TechOnHover icon={SiSqlite} hoveredText="Sqlite"/>
     </Row>
