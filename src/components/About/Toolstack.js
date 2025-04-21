@@ -5,8 +5,10 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiPowershell,
+  SiGithub,
+  SiAzuredevops, // Added Azure DevOps
 } from "react-icons/si";
-import { FaWindows, FaGithub} from "react-icons/fa";
+import {FaWindows} from "react-icons/fa";
 
 
 function Toolstack() {
@@ -16,7 +18,8 @@ function Toolstack() {
       <TechOnHover icon={SiVisualstudiocode} hoveredText="VSC"/>
       <TechOnHover icon={SiPostman} hoveredText="Postman"/>
       <TechOnHover icon={SiPowershell} hoveredText="PowerShell"/>
-      <TechOnHover icon={FaGithub} hoveredText="GitHub"/>
+      <TechOnHover icon={SiAzuredevops} hoveredText="Azure DevOps"/> {/* Replaced GitHub */}
+      <TechOnHover icon={SiGithub} hoveredText="GitHub Copilot"/>
       </Row>
   );
 }

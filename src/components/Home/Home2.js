@@ -17,38 +17,42 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I have over a decade of programming experience, beginning in high school, 
-              and have been working as a professional software developer for the past four years.
+              🧠 <b className="purple">AI & Software Engineering Experience</b>
+              <br />
+              I have over a decade of programming experience, starting in high school, and have been working professionally as a software developer for the past four years.
               <br />
               <br />
-              My professional career commenced with the development of an AI-driven bartender using <b className="purple">Python </b> and 
-              <b className="purple"> JavaScript.</b>
-              <br />
-              I have leveraged <b className="purple">AWS</b> services extensively, using <b className="purple">Lambda </b> 
-              for code triggering, <b className="purple">DynamoDB </b>
-              for real time data storage, and <b className="purple">MQTT</b> for hardware communication.
-              <br />
-              Additionally, I implemented the <b className="purple">Alexa SDK</b> in <b className="purple">Python </b> 
-              to enable interactive speech and listening capabilities for customers.
+              My career began with the development of an AI-powered bartender using <b className="purple">Python</b> and <b className="purple">JavaScript</b>. This project leveraged <b className="purple">AWS</b> services such as <b className="purple">Lambda</b> for event-driven execution, <b className="purple">DynamoDB</b> for real-time data storage, and <b className="purple">MQTT</b> for hardware communication. I also integrated the <b className="purple">Alexa SDK</b> in <b className="purple">Python</b> to enable interactive voice capabilities.
               <br />
               <br />
-              In recent years, I have developed few games, including  
+              🎮 <b className="purple">Game Development</b>
+              <br />
+              In recent years, I transitioned into game development, creating several titles including  
               <b 
               onClick={(e) => { 
                 e.preventDefault(); handleRedirect('https://www.changiairport.com/en/discover/changiverse.html');}}
                 className='shineEffectParent'
                 style={{ cursor: 'pointer' }}
               > ChangiVerse </b>
-              for Singapore Airport, utilizing 
-              <b className="purple"> Lua Programming Language </b> and 
-              <b className="purple"> Roblox Studio.</b> 
-              The game itself has reached almost <b className="purple">10 million</b> visits to date and won several gaming and marketing awards.
+              for Singapore Changi Airport. Built using the <b className="purple">Lua programming language</b> in <b className="purple">Roblox Studio</b>, the game has reached nearly <b className="purple">10 million</b> visits and has won multiple awards in both gaming and marketing categories.
               <br />
-              To ensure seamless automatization and deployment, I utilized <b className="purple">Azure DevOps</b> to create pipelines using <b className="purple">Bash</b> scripts, 
-              facilitating the uploading of new packages from the JavaScript application and publishing them across different type of feeds.
               <br />
-              To ensure my code stays clean and efficient, I use <b className="purple">Pylint</b>, <b className="purple">Autopep8</b>, <b className="purple">ESLint</b> and other tools. 
-              </p>
+              ⚙️ <b className="purple">DevOps & Automation</b>
+              <br />
+              As part of a project involving <b className="purple">JavaScript</b>-based package management, I implemented CI/CD pipelines using <b className="purple">Azure DevOps</b> and <b className="purple">Bash scripting</b>. This automation process streamlined deployment by enabling efficient publishing of packages across multiple feed types, improving consistency and development velocity.
+              <br />
+              <br />
+              🤖 <b className="purple">Generative AI</b>
+              <br />
+              Over the past year, I’ve focused on <b className="purple">Generative AI</b>, actively experimenting with <b className="purple">LLMs</b> via <b className="purple">Azure OpenAI</b> and the <b className="purple">LangChain</b> framework. I built full-stack AI-driven applications using <b className="purple">Python</b>, <b className="purple">JavaScript</b>, and <b className="purple">OpenAPI</b>, handling tasks like:
+              <ul>
+                <li>Loading and transforming unstructured data into structured formats (CSV)</li>
+                <li>Indexing and retrieving data using <b className="purple">Chroma vector database</b></li>
+                <li>Implementing similarity search and other retrieval techniques</li>
+                <li>Creating custom metadata fields to improve data categorization</li>
+              </ul>
+              Additionally, I served as a mentor in a company-wide <b className="purple">GenAI bootcamp</b>, where I trained 10 engineers on foundational <b className="purple">LLM</b> concepts, prompt engineering best practices, and productivity tools such as <b className="purple">GitHub Copilot</b>.
+            </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

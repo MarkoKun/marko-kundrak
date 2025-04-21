@@ -46,6 +46,11 @@ function ResumeNew() {
                   <Page pageNumber={3} scale={width > 786 ? 1.2 : 0.6} />
                 </Document>
             </div>
+            <div className="each-slide-effect">
+                <Document file={pdf} className="d-flex justify-content-center">
+                  <Page pageNumber={4} scale={width > 786 ? 1.2 : 0.6} />
+                </Document>
+            </div>
           </Slide>
           <br/>
           <Button

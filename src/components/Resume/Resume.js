@@ -41,6 +41,10 @@ function ResumeNew() {
                 <Page pageNumber={3} scale={width > 786 ? 1.3 : 0.65} />
             </Document>
             <br/>   
+            <Document file={pdf} className="d-flex justify-content-center">
+                <Page pageNumber={4} scale={width > 786 ? 1.3 : 0.65} />
+            </Document>
+            <br/>   
             <div>
               <Button
                 onClick={handleDownload}

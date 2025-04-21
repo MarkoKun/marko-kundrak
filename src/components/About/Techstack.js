@@ -9,10 +9,18 @@ import {
 import {
   SiFirebase,
   SiLua,
-  SiSqlite,
+  SiPostgresql,
   SiAzuredevops,
   SiFlask,
   SiVercel,
+  SiGraphql, // Placeholder for LangChain
+  SiOpenapiinitiative,
+  SiSwagger,
+  SiPandas,
+  SiCss3,
+  SiHtml5,
+  SiChakraui,
+  SiOpenai, // Replacing TensorFlow with OpenAI icon
 } from "react-icons/si";
 
 import { FaAws, FaReact  } from "react-icons/fa";
@@ -33,7 +41,15 @@ function Techstack() {
       <TechOnHover icon={TbBrandSocketIo} hoveredText="SocketIO"/>
       <TechOnHover icon={SiFlask} hoveredText="FlaskAPI"/>
       <TechOnHover icon={SiFirebase} hoveredText="Firebase"/>
-      <TechOnHover icon={SiSqlite} hoveredText="Sqlite"/>
+      <TechOnHover icon={SiPostgresql} hoveredText="PostgreSQL"/>
+      <TechOnHover icon={SiGraphql} hoveredText="LangChain"/> {/* Placeholder */}
+      <TechOnHover icon={SiChakraui} hoveredText="Chroma VectorDB"/>
+      <TechOnHover icon={SiOpenapiinitiative} hoveredText="OpenAPI"/>
+      <TechOnHover icon={SiSwagger} hoveredText="Swagger"/>
+      <TechOnHover icon={SiPandas} hoveredText="Pandas"/>
+      <TechOnHover icon={SiCss3} hoveredText="CSS"/>
+      <TechOnHover icon={SiHtml5} hoveredText="HTML"/>
+      <TechOnHover icon={SiOpenai} hoveredText="OpenAI"/> {/* Updated icon */}
     </Row>
   );
 }
